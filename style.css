@@ -220,7 +220,7 @@
 .footer-section {
   height: 50vh;
   background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
-  url(/assets/social-bg.png);
+  url(assets/social-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
