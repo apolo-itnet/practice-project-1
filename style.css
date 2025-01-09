@@ -187,7 +187,7 @@
       }
 
       hr {
-        opacity: .2;
+        opacity: .4;
       }
 
       .social-icon {
@@ -219,15 +219,13 @@
 
 .footer-section {
   height: 50vh;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
-  url(assets/social-bg.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(assets/social-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
 
   .footer-container {
     display: flex;
@@ -263,7 +261,7 @@
       }
 
       hr {
-        opacity: .2;
+        opacity: .6;
       }
 
 
