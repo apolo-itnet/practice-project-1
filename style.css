@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", serif;
+  font-weight: 400;
+}
+
+.btn-primary {
+  padding: 15px 30px;
+  border-radius: 8px;
+  background: #52c303;
+  border: none;
+  color: white;
+  font-weight: 600;
+  transition: transform .3s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+
+
+#hero {
+  background: linear-gradient(380.00deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%), url(/assets/hero-bg.png) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  
+  
+  .hero-content {
+    width: 785px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+
+    .subtitle {
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 10px;
+      opacity: .8;
+    }
+    
+    .main-title {
+      font-size: 50px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .description {
+      font-size: 14px;
+      font-weight: 300;
+      margin-bottom: 20px;
+      padding: 10px 50px;
+      opacity: .8;
+    }
+  }
+}
+
+
+.about {
+  height: 100vh;
+  padding: 0px 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  .about-title {
+    width: 55%;
+
+    .title{
+      font-size: 16px;
+    }
+
+    .main-title {
+      font-size: 40px;
+      font-weight: 600;
+      margin-top: 10px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .about-container {
+
+    .card-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 32px;
+      overflow: hidden;
+      padding-bottom: 26px;
+
+      .card-style {
+        width: 50%;
+
+        .cart-image {
+          width: 100%;
+          margin-bottom: 20px;
+          transition: transform .3s ease;
+          cursor: pointer;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+
+        }
+        
+        .item-name {
+          padding: 10px 16px;
+          border-radius: 8px;
+          background: rgba(82, 195, 3, 0.15);
+          font-weight: 500;
+        }
+        
+        .discount {
+          font-size: 20px;
+          font-weight: bold;
+          padding: 26px 0 10px 0;
+        }
+
+        .item-des {
+          font-size: 14px;
+          padding: 0 30px;
+        }
+
+      }
+            
+    }
+  }
+}
+
+
+.food-section{
+
+  height: 100vh;
+  padding: 0px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .food-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+
+
+      
+    .food-image {
+      width: 100%;
+      border-radius: 20px;
+    }
+    
+
+    .food-content {
+      width: 80%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .food-title {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .food-des {
+        font-size: 14px;
+        opacity: .8;
+        margin-bottom: 20px;
+      }
+
+      .follow {
+        font-size: 22px;
+        font-weight: 500;
+        opacity: .8;
+      }
+
+      hr {
+        opacity: .2;
+      }
+
+      .social-icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        font-size: 28px;
+        text-align: center;
+            
+        .fa-brands {
+          color: #52c303 ;
+          transition: transform .3s ease;
+        
+          &:hover {
+            transform: scale(1.2);
+          }
+
+        }
+      }
+
+    }
+
+
+  }
+
+}
+
+.footer-section {
+  height: 50vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
+  url(/assets/social-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+
+    .footer-content {
+      width: 80%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      gap: 10px;
+
+      .footer-title {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .footer-des {
+        font-size: 20px;
+        opacity: .8;
+        margin-bottom: 20px;
+      }
+
+      .follow {
+        font-size: 22px;
+        font-weight: 500;
+        opacity: .8;
+      }
+
+      hr {
+        opacity: .2;
+      }
+
+
+    .social-icon {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      font-size: 28px;
+      text-align: center;
+          
+      .fa-brands {
+        color: #52c303 ;
+        transition: transform .3s ease;
+      
+        &:hover {
+          transform: scale(1.2);
+        }
+
+      }
+    }
+  }
+ }
+}
